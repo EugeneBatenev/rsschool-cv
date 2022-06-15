@@ -12,7 +12,7 @@ Telegram: @ardanhellwinter
 
 About Me
 ---
-I`m 26 y/o, I work as Network Technician last 3 years and this is very interesting work, whitch helps me to grow as a specialist, 
+I`m 26 y/o, I work as Network Technician last 3 years and this is very interesting work, whitch helps me to grow as a specialist,
 but i want to move forward and slighly change my life. One of the goals is — completly change my speciality and grow as good Frontend Developer.
 
 My Skills
