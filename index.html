@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@200&family=Roboto+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="assets/favicon.ico" />
+    <title>CV</title>
+  </head>
+  <body>
+    <!--Работа с хэдером-->
+    <header class="header">
+      <!--контейнер  содержит в себе все элементы шапки, ограничивая их заданным нами параметром-->
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-items">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-items">
+              <a href="#about-me" class="nav-link">About Me</a>
+            </li>
+            <li class="nav-items">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-items">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-items">
+              <a href="#language" class="nav-link">Language</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!--Используя семантические теги, создаем основное наполнение внутри тега main-->
+    <main class="main">
+      <!--Создаем контейнер с дополнительным классом section-profile чтобы данный контейнер наследовал параметры по классу container, но при этом мог получать доп свойства через обращение к классу section-profile-->
+      <div class="container main-container">
+        <!--Используя тег section создаем секции с контентом для нашего main. Жека привыкай к семантической верстке. Section как правило содержит в себе один заголово (h1-h6)-->
+        <section class="section section-profile">
+          <img
+            src="/rsschool-cv/assets/wolf.jpg"
+            alt=""
+            class="section-profile-photo"
+          />
+          <div class="section-profile-titles">
+            <h1 class="section-title main-title">Eugene Batenev
+            </h1>
+            <h3 class="section-subtitle">Network Technician</h3>
+          </div>
+        </section>
+        <section class="section"></section>
+        <section class="section"></section>
+        <section class="section"></section>
+        <section class="section"></section>
+        <section class="section"></section>
+        <section class="section"></section>
+        <section class="section"></section>
+        <section class="section"></section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container footer-container">
+        <div>
+          © 2022
+          <a href="https://github.com/EugeneBatenev" class="github nav-link"
+            >EugeneBatenev</a
+          >
+        </div>
+        <a href="https://rs.school/js/" class="rss"></a>
+      </div>
+    </footer>
+  </body>
+</html>
