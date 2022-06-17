@@ -2,7 +2,6 @@
   box-sizing: border-box;
 }
 body {
-  border: 1px red solid;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -17,12 +16,11 @@ body {
   color: #4d2323;
 }
 .container {
-  border: 1px red solid;
   max-width: 1440px;
   margin: 0 auto;
 }
+
 .nav-list {
-  border: 1px red solid;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -44,13 +42,84 @@ li {
 .footer {
   background: #829985;
 }
-.intro {
-  display: flex;
-  justify-content: space-between;
-  border: 1px red solid;
-}
+
 .main-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 20px 20px ;
+}
+.main-title {
+    position: relative;
+    padding: 0;
+    margin-bottom: 20px;
+    color: #4d2323;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 10px;
+    line-height: 50px;
+    word-spacing: 3px;
+}
+/*делаем все буквы большими в заголовках а так же центрируем их*/
+.section-profile-titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+.main-title::after {
+  content: "";
+  position: absolute;
+  bottom: -19px;
+  left: 50%;
+  margin-left: -70px;
+  width: 140px;
+  height: 2px;
+  background-color: #829985;
+}
+.section-subtitle {
+  margin-top: 20px;
+  color: #5c5c5c;
+  line-height: 50px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+.section-profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 30px 35px;
+    border-bottom: 15px solid #d7d1c9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  margin: 20px auto;
+}
+.rss{
+  width: 120px;
+  height: 45px;
+  background-image: url(/rsschool-cv/assets/rs_school_js.svg);
+  background-size: contain;
+  fill: #ffffff;
 }
